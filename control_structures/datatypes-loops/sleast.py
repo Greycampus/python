@@ -9,7 +9,7 @@ for i in range(0,n):
 #using zip and making tuple of marks and names
 dd = zip(names,marks)
 #getting the sorted list using the lambda function
-#more about lambda functio can be found on python docs
+#more about lambda function can be found on python docs
 dd = sorted(dd,key= lambda x: (x[1], x[0]))
 marks = sorted(marks)
 #getting sorted list of unique marks for getting count of second least
