@@ -46,8 +46,8 @@
 
 #### Functions
 - Function for GCD of two numbers - [gcdd.py](functions/gcdd.py)
-- Function to find whether a number is armstrong number or not -[arms.py](functions/arms.py)
-- generate a sequence of primes that are exactly at absolute difference of 1 with powers of 2 - [pri2.py](functions/pri2.py)
+- Function to find whether a number is armstrong number or not -[arms.py](functions/armstrong.py)
+- generate a sequence of primes that are exactly at absolute difference of 1 with powers of 2 - [prime_gen2.py](functions/prime_gen2.py)
 - Write a function to find the voting result based on a string input such that a letter represents a party -[votec.py](functions/votec.py)
 - factorial of number- [factorial.py](functions/factorial.py)
 
@@ -58,17 +58,17 @@
 - find the occurances of a symbol in string using regular expressions -[occur.py](regex/occur.py)
 
 #### Object oriented paradigms
-- Build a class to store data about mobile and predict the cost as per given conditions -[mclass.py](oop/mclass.py)
-- Use the class built in above program as parent and build accesory class for a shop for billing purpose -[accesory.py](oop/accesory.py)
-- Use Function overriding in a class - [over.py](oop/over.py)
-- implement a ceaser cipher in a class by inheriting texts from a parent class - [cipher.py](oop/cipher.py)
+- Build a class to store data about mobile and predict the cost as per given conditions -[mclass.py](oops/mclass.py)
+- Use the class built in above program as parent and build accesory class for a shop for billing purpose -[accesory.py](oops/accesory.py)
+- Use Function overriding in a class - [over.py](oops/over.py)
+- implement a ceaser cipher in a class by inheriting texts from a parent class - [cipher.py](oops/cipher.py)
 
 #### Serialization
-- use Serialization for getting a series of natural numbers -[natu.py](serialization/natu.py)
+- use Serialization for getting a series of natural numbers -[natural.py](serialization/natural.py)
 
 #### Exception Handling
-- Use Exception handling to catch divided by zero and divided by power of 2 exceptions -[zero2.py](exception_h/zero2.py)
-- Use Exception handling to prevent calculation of roots of equation if roots are complex -[root.py](exception_h/root.py)
+- Use Exception handling to catch divided by zero and divided by power of 2 exceptions -[zero2.py](exception_handling/zero2.py)
+- Use Exception handling to prevent calculation of roots of equation if roots are complex -[root.py](exception_handling/root.py)
 
 #### iterators
 - using iterators generate the multiples of 2 and 3 -[iterr.py](iterators/iterr.py)
