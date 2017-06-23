@@ -1,4 +1,5 @@
 #armstrong number function
+#An n-digit number that is the sum of the nth powers of its digits is called an n-narcissistic number. It is also sometimes known as an Armstrong number,
 def arms(n):
     #converting n into string so we can access each digit individually using the string indexing
     ns = str(n)
