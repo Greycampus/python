@@ -30,7 +30,7 @@ Operators are the constructs which can manipulate the value of operands.
 <td>a – b = -10</td>
 </tr>
 <tr>
-<td>* Multiplication</td>
+<td>\* Multiplication</td>
 <td>Multiplies values on either side of the operator</td>
 <td>a * b = 200</td>
 </tr>
@@ -123,10 +123,10 @@ Subtract AND</td>
 <td>c -= a is equivalent to c = c - a</td>
 </tr>
 <tr>
-<td>\*=
+<td> \*=
 Multiply AND</td>
 <td>It multiplies right operand with the left operand and assign the result to left operand</td>
-<td>c \*= a is equivalent to c = c * a</td>
+<td>c \*= a is equivalent to c = c \* a</td>
 </tr>
 <tr>
 <td>/=
@@ -141,10 +141,10 @@ Modulus AND</td>
 <td>c %= a is equivalent to c = c % a</td>
 </tr>
 <tr>
-<td>\*\*=
+<td> \*\* =
 Exponent AND</td>
 <td>Performs exponential (power) calculation on operators and assign value to the left operand</td>
-<td>c \*\*= a is equivalent to c = c \*\* a</td>
+<td>c \*\* = a is equivalent to c = c \*\* a</td>
 </tr>
 <tr>
 <td>//=
@@ -241,13 +241,13 @@ Used to reverse the logical state of its operand.
 <table  class="table table-bordered">
 <tr><th>Operator</th><th>Description</th></tr>
 <tr>
-<td>\*\*</td>
+<td> \*\* </td>
 <td>Exponentiation (raise to the power)</td>
 </tr><tr>
 <td>~ + -</td>
 <td>Complement, unary plus and minus (method names for the last two are +@ and -@)</td>
 </tr><tr>
-<td>* / % //</td>
+<td>\*/ % //</td>
 <td>Multiply, divide, modulo and floor division</td>
 </tr><tr>
 <td>+ -</td>
@@ -271,7 +271,7 @@ Used to reverse the logical state of its operand.
 <td>Equality operators</td>
 </tr>
 <tr>
-<td>= %= /= //= -= += \*= \*\*=</td>
+<td>= %= /= //= -= +=  \*=  \*\* =</td>
 <td>Assignment operators</td>
 </tr>
 <tr>
