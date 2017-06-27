@@ -143,7 +143,7 @@ And print out the string by calling the variable:
 print(hw)
 ```
 ```python
-Ouput
+Output
 Hello, World!
 ```
 Like numbers, there are many operations that we can perform on strings within our programs in order to manipulate them to achieve the results we are seeking. Strings are important for communicating information to the user, and for the user to communicate information back to the program.
@@ -195,7 +195,7 @@ coral = ('blue coral', 'staghorn coral', 'pillar coral')
 print(coral)
 ```
 ```python
-Ouput
+Output
 ('blue coral', 'staghorn coral', 'pillar coral')
 ```
 Like in the other data types, Python prints out the tuple just as we had typed it, with parentheses containing a sequence of values.
@@ -217,7 +217,7 @@ Like the other data types, let’s store the dictionary inside a variable, and p
 sammy = {'name': 'Sammy', 'animal': 'shark', 'color': 'blue',  'location': 'ocean'}
 print(sammy)
 ```
-Ouput
+Output
 {'color': 'blue', 'animal': 'shark', 'name': 'Sammy', 'location': 'ocean'}
 
 If we want to isolate Sammy’s color, we can do so by calling `sammy['color']`. Let’s print that out:
