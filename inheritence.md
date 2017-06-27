@@ -162,7 +162,7 @@ We’ll create a `Shark` child class of the `Hunter` parent class. Because we cr
 Sharks, unlike land hunter,do not have stealth mode for them. They also have geography as water and are unable to move on land.
 
 In light of this, we’ll be overriding the `__init__()` constructor method and the `stealth()` method. We don’t need to modify the `hunt()` method since sharks are hunters that can hunt in water. Let’s take a look at this child class:
-hunter.py
+###### hunter.py
 ```python
 ...
 class Shark(Hunter):
