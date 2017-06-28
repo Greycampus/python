@@ -1,6 +1,12 @@
 #program to find whether the number is odd and multiples of nine
 #take input from
-k = int(input())
+msg = 'Enter the number'
+print(msg)
+a = raw_input()
+#stripping spaces
+a = a.strip()
+#Converting to integer
+a = int(a)
 if(k%2!=0 and k%9==0):#by not 2 and by 9 true
     print('%d is both odd number and a multiple of 9'%k)
 elif(k%2!=0 and k%9!=0):#by not 2 and by not 9
