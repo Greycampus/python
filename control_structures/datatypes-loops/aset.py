@@ -4,7 +4,7 @@ msg = 'enter list of your choice with repetitions:'
 print(msg)
 #taking data from user in console
 a = raw_input()
-#stripping the excess zeroes in input
+#stripping the excess zeroes in input using strip() function
 a = a.strip()
 #splitting the raw input into individual elements and storing in list
 b = list(a.split())
