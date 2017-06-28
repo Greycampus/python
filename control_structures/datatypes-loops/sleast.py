@@ -1,11 +1,16 @@
 #get number of students
-n  = int(raw_input())
+msg = 'Enter number of students:'
+print(msg)
+#getting input, stripping spaces and converting to int
+n  = int(raw_input().strip())
 names = []
 marks = []
+msg = 'enter student details'
+print(msg)
 for i in range(0,n):
     #getting student name and marks
     names.append(str(raw_input()))
-    marks.append(float(raw_input()))
+    marks.append(float(raw_input().strip()))
 #using zip and making tuple of marks and names
 dd = zip(names,marks)
 #getting the sorted list using the lambda function

@@ -1,9 +1,21 @@
 #getting user input
 #get initial term in series
-a = int(input('enter initial term:'))
+msg = 'enter initial term:'
+print(msg)
+#getting user input
+a = raw_input()
+#stripping extra spaces
+a = int(a.strip())
+msg = 'enter ratio in series(only integers):'
+print(msg)
 #get ratio in series only integers
-r = int(input('enter ratio in series(only integers):'))
-k = int(input('enter number you want to check:'))
+r = raw_input()
+#stripping extra spaces
+r = int(r.strip())
+msg = 'enter number you want to check:'
+print( msg)
+k = raw_input()
+k = int(k.strip())
 if(k%a==0 and k==a):
     print('you just entered the initial term again,yes its in series')
 elif(k%a==0 and k%r==0 and k>a):
@@ -13,9 +25,19 @@ elif(k%a==0 and k%r==0 and k>a):
     # 1 r r2 r3 r4 .......
     while tmp!=1 and tmp >=r:#check for ratio exponential as in a.r^n
         tmp=tmp/r
+    print(tmp)
     if(tmp==1):
-        print('%d is in series'%k)
+        #storing console message
+        msg = 'yes its in series'
+        #print message
+        print(msg)
     else:
-        print('%d is not in series'%k)
+        #storing console message
+        msg = 'not in series'
+        #print message
+        print(msg)
 else:
-    print('%d is not in series'%k)
+    #storing console message
+    msg = 'not in series'
+    #print message
+    print(msg)

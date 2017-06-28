@@ -5,5 +5,7 @@ def facta(n):
     else:
         #using recursion and calling the factorial of n-1
         return n*facta(n-1)
-k = int(input('enter the number to find its factorial'))
+msg = 'enter the number to find its factorial'
+print(msg)
+k = int(input())
 print('factorial is %d'%facta(k))

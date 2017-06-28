@@ -1,11 +1,20 @@
-k = int(input('enter total number of mediums: '))
-l = int(input('enter length of medium: '))
-h = int(input('enter height from which ball is thrown: '))
-d = int(input('enter distance travelled in each step:'))
+msg = 'enter total number of mediums: '
+print(msg)
+k = int(raw_input().strip())
+msg = 'enter length of medium: '
+print(msg)
+l = int(raw_input().strip())
+msg = 'enter height from which ball is thrown: '
+print(msg)
+h = int(raw_input().strip())
+msg = 'enter distance travelled in each step:'
+print(msg)
+d = int(raw_input().strip())
 print('now enter qoutients of loss for %d mediums:'%k)
 kq =[]
 for i in range(0,k):
-    kq.append(float(input('%d medium :'%(i+1))))
+    #appending into list, the converted float from input
+    kq.append(float(input('%d medium :'%(i+1))))#input can print messages given as parameters
 h1 = h
 d1 = 0
 while h1!=0:

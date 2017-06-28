@@ -1,17 +1,19 @@
-def gcdd(n,m):
+def gcdd(a,b):
     #stopping condition for recursion that is bigger number is divisible by smaller number in gcd parameters
     #max(1,2) returns 2 and min(1,2) returns 1
     #if we pass two numbers as parameters it first checks the division condition of maximum and minimum
     #returns minimum if condition is successful
-    if(max(n,m)%min(n,m)==0):
-        return min(n,m)
+    if(max(a,b)%min(a,b)==0):
+        return min(a,b)
     else:
         #returns gcd of remainder and divisor
-        return gcdd(min(n,m),max(n,m)%min(n,m))
+        return gcdd(min(a,b),max(a,b)%min(a,b))
 #reading the input from user
 #first number
-print('enter two numbers whose GCD is to be found')
-k = int(input())
+msg = 'enter two numbers whose GCD is to be found'
+#printing message to the console
+print(msg)
+a = int(raw_input().strip())
 #second number
-k1 = int(input())
-print('The GCD is :%d'%gcdd(k,k1))
+b = int(raw_input().strip())
+print('The GCD is :%d'%gcdd(a,b))
