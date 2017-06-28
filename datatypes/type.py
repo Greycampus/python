@@ -1,6 +1,9 @@
-#taking data from user
-#use python3
-#if you are using the python 2.x string variables gives error enter string in quotes for python 2.x
-k = input('enter the data:')
-#printing type using the type function
-print('the type of data you entered is:'+str(type(k)))
+#initialize the values of a,b,c with different types
+a = 1
+b = 1.0
+c = 'Grey Campus'
+#printing types of a,b,c
+print(type(a))
+print(type(b))
+print(type(c))
+#if you want to get the input from user and print the type go to the type1.py program in same folder

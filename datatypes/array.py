@@ -1,11 +1,16 @@
 # program to store a sequence in a list or array
+msg = 'enter the number of elements:'
+#printing message for user input
+print(msg)
 # taking length of list to be inputted
-k = int(input('enter the number of elements:'))
+a = raw_input()
+#stripping extra spaces in input
+a = int(a.strip())
 #empty list
-ll = []
+num = []
 print('Enter the elements:')
-for i in range(0,k):
+for i in range(0,a):
     #using append function of lists and appending the data into empty list
-    ll.append(int(input()))
+    num.append(int(input()))
 print('Elements of list are:')
-print(ll)
+print(num)
