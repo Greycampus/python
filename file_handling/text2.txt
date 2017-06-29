@@ -1,6 +1,0 @@
-Hello programmer! you have successfully open text file
-hello Ruby programmer
-hello C programmer
-hello C++ programmer
-hello python programmer
-hello buddy
