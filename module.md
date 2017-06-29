@@ -158,47 +158,47 @@ One option is to invoke the path of the module via the programming files that us
 
 To append the path of a module to another programming file, you’ll start by importing the sys module alongside any other modules you wish to use in your main program file.
 
-The sys module is part of the Python Standard Library and provides system-specific parameters and functions that you can use in your program to set the path of the module you wish to implement.
+The `sys` module is part of the Python Standard Library and provides system-specific parameters and functions that you can use in your program to set the path of the module you wish to implement.
 
-For example, let’s say we moved the hello.py file and it is now on the path /usr/sammy/ while the main_program.py file is in another directory.
+For example, let’s say we moved the `hello.py` file and it is now on the path `/usr/rag/` while the `main.py` file is in another directory.
 
-In our main_program.py file, we can still import the hello module by importing the sys module and then appending /usr/sammy/ to the path that Python checks for files.
-main_program.py
-
+In our `main.py` file, we can still import the `hello` module by importing the `sys` module and then appending `/usr/rag/` to the path that Python checks for files.
+###### main.py
+```python
 import sys
-sys.path.append('/usr/sammy/')
+sys.path.append('/usr/rag/')
 
 import hello
 ...
-
-As long as you correctly set the path for the hello.py file, you’ll be able to run the main_program.py file without any errors and receive the same output as above when hello.py was in the same directory.
+```
+As long as you correctly set the path for the `hello.py` file, you’ll be able to run the `main.py` file without any errors and receive the same output as above when `hello.py` was in the same directory.
 ### Adding the Module to the Python Path
 
 A second option that you have is to add the module to the path where Python checks for modules and packages. This is a more permanent solution that makes the module available environment-wide or system-wide, making this method more portable.
 
 To find out what path Python checks, run the Python interpreter from your programming environment:
-
+```bash
     python
-
+```
 Next, import the sys module:
-
+```python
     import sys
-
+```
 Then have Python print out the system path:
-
+```python
     print(sys.path)
-
+```
 Here, you’ll receive some output with at least one system path. If you’re in a programming environment, you may receive several. You’ll want to look for the one that is in the environment you’re currently using, but you may also want to add the module to your main system Python path. What you’re looking for will be similar to this:
-
+```python
 Output
-'/usr/sammy/my_env/lib/python3.5/site-packages'
-
-Now you can move your hello.py file into that directory. Once that is complete, you can import the hello module as usual:
-main_program.py
-
+'/usr/rag/my_env/lib/python3.5/site-packages'
+```
+Now you can move your `hello.py` file into that directory. Once that is complete, you can import the `hello` module as usual:
+###### main.py
+```python
 import hello
 ...
-
+```
 When you run your program, it should complete without error.
 
 Modifying the path of your module can ensure that you can access the module regardless of what directory you are in. This is useful especially if you have more than one project referencing a particular module.
