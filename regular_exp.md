@@ -195,95 +195,95 @@ ouput
 ### Regular Expression Modifiers: Option Flags
 <table>
 <tbody><tr><th>Modifier</th><th>Description</th></tr>
-<tr><td>`re.I`</td><td>Performs case-insensitive matching.</td></tr>
-<tr><td>`re.L`</td><td>Interprets words according to the current locale. This interpretation affects the alphabetic group (`\w` and `\W`), as well as word boundary behavior
-(`\b` and `\B`).</td></tr>
-<tr><td>`re.M`</td><td>Makes `$` match the end of a line (not just the end of the string) and makes `^` match the start of any line (not just the start of the string).</td></tr>
-<tr><td>`re.S`</td><td>Makes a period (dot) match any character, including a newline.</td></tr>
-<tr><td>`re.U`</td><td>Interprets letters according to the Unicode character set. This flag affects the behavior of `\w`, `\W`, `\b`, `\B`.</td></tr>
-<tr><td>`re.X`</td><td>Permits "cuter" regular expression syntax. It ignores whitespace (except inside a set [] or when escaped by a backslash) and treats unescaped # as a comment marker.</td></tr>
+<tr><td>re.I</td><td>Performs case-insensitive matching.</td></tr>
+<tr><td>re.L</td><td>Interprets words according to the current locale. This interpretation affects the alphabetic group (\w and \W), as well as word boundary behavior
+(\b and \B).</td></tr>
+<tr><td>re.M</td><td>Makes $ match the end of a line (not just the end of the string) and makes ^ match the start of any line (not just the start of the string).</td></tr>
+<tr><td>re.S</td><td>Makes a period (dot) match any character, including a newline.</td></tr>
+<tr><td>re.U</td><td>Interprets letters according to the Unicode character set. This flag affects the behavior of \w, \W, \b, \B.</td></tr>
+<tr><td>re.X</td><td>Permits "cuter" regular expression syntax. It ignores whitespace (except inside a set [] or when escaped by a backslash) and treats unescaped # as a comment marker.</td></tr>
 </tbody></table>
 
 ### Regular Expression Patterns
-Except control characters  `+ ? . * ^ $ ( ) [ ] { } | \` all characters match themselves. You can escape a control character by preceeding it with a backslash.
+Except control characters  + ? . * ^ $ ( ) [ ] { } | \ all characters match themselves. You can escape a control character by preceeding it with a backslash.
 
 <table>
 <tbody><tr><th>Pattern</th><th>Description</th></tr>
-<tr><td>`^`</td><td>Matches beginning of line.</td></tr>
-<tr><td>`$`</td><td>Matches end of line.</td></tr>
-<tr><td>`.`</td><td>Matches any single character except newline. Using m option allows it to match newline as well.</td></tr>
-<tr><td>`[...]`</td><td>Matches any single character in brackets.</td></tr>
-<tr><td>`[^...]`</td><td>Matches any single character not in brackets</td></tr>
-<tr><td>`re*`</td><td>Matches 0 or more occurrences of preceding expression.</td></tr>
-<tr><td>`re+`</td><td>Matches 1 or more occurrence of preceding expression.</td></tr>
-<tr><td>`re?`</td><td>Matches 0 or 1 occurrence of preceding expression.</td></tr>
-<tr><td>`re{ n}`</td><td>Matches exactly n number of occurrences of preceding expression.</td></tr>
-<tr><td>`re{ n,}`</td><td>Matches n or more occurrences of preceding expression.</td></tr>
-<tr><td>`re{ n, m}`</td><td>Matches at least n and at most m occurrences of preceding expression.</td></tr>
-<tr><td>`a| b`</td><td>Matches either a or b.</td></tr>
-<tr><td>`(re)`</td><td>Groups regular expressions and remembers matched text.</td></tr>
-<tr><td>`(?imx)`</td><td>Temporarily toggles on i, m, or x options within a regular expression. If in parentheses, only that area is affected.</td></tr>
-<tr><td>`(?-imx)`</td><td>Temporarily toggles off `i`, `m`, or `x` options within a regular expression. If in parentheses, only that area is affected.</td></tr>
-<tr><td>`(?: re)`</td><td>Groups regular expressions without remembering matched text.</td></tr>
-<tr><td>`(?imx: re)`</td><td>Temporarily toggles on `i`, `m`, or `x` options within parentheses.</td></tr>
-<tr><td>`(?-imx: re)`</td><td>Temporarily toggles off `i`, `m`, or `x` options within parentheses.</td></tr>
-<tr><td>`(?#...)`</td><td>Comment.</td></tr>
-<tr><td>`(?= re)`</td><td>Specifies position using a pattern. Doesn't have a range.</td></tr>
-<tr><td>`(?! re)`</td><td>Specifies position using pattern negation. Doesn't have a range.</td></tr>
-<tr><td>`(?>; re)`</td><td>Matches independent pattern without backtracking.</td></tr>
-<tr><td>`\w`</td><td>Matches word characters.</td></tr>
-<tr><td>`\W`</td><td>Matches nonword characters.</td></tr>
-<tr><td>`\s`</td><td>Matches whitespace. Equivalent to `[\t\n\r\f]`.</td></tr>
-<tr><td>`\S`</td><td>Matches nonwhitespace.</td></tr>
-<tr><td>`\d`</td><td>Matches digits. Equivalent to `[0-9]`.</td></tr>
-<tr><td>`\D`</td><td>Matches nondigits.</td></tr>
-<tr><td>`\A`</td><td>Matches beginning of string.</td></tr>
-<tr><td>`\Z`</td><td>Matches end of string. If a newline exists, it matches just before newline.</td></tr>
-<tr><td>`\z`</td><td>Matches end of string.</td></tr>
-<tr><td>`\G`</td><td>Matches point where last match finished.</td></tr>
-<tr><td>`\b`</td><td>Matches word boundaries when outside brackets. Matches backspace `(0x08)` when inside brackets.</td></tr>
-<tr><td>`\B`</td><td>Matches nonword boundaries.</td></tr>
-<tr><td>`\n`, `\t`, etc.</td><td>Matches newlines, carriage returns, tabs, etc.</td></tr>
-<tr><td>`\1...\9`</td><td>Matches nth grouped subexpression.</td></tr>
-<tr><td>`\10`</td><td>Matches n<sup>th</sup> grouped subexpression if it matched already. Otherwise refers to the octal representation of a character code.</td></tr>
+<tr><td>^</td><td>Matches beginning of line.</td></tr>
+<tr><td>$</td><td>Matches end of line.</td></tr>
+<tr><td>.</td><td>Matches any single character except newline. Using m option allows it to match newline as well.</td></tr>
+<tr><td>[...]</td><td>Matches any single character in brackets.</td></tr>
+<tr><td>[^...]</td><td>Matches any single character not in brackets</td></tr>
+<tr><td>re*</td><td>Matches 0 or more occurrences of preceding expression.</td></tr>
+<tr><td>re+</td><td>Matches 1 or more occurrence of preceding expression.</td></tr>
+<tr><td>re?</td><td>Matches 0 or 1 occurrence of preceding expression.</td></tr>
+<tr><td>re{ n}</td><td>Matches exactly n number of occurrences of preceding expression.</td></tr>
+<tr><td>re{ n,}</td><td>Matches n or more occurrences of preceding expression.</td></tr>
+<tr><td>re{ n, m}</td><td>Matches at least n and at most m occurrences of preceding expression.</td></tr>
+<tr><td>a| b</td><td>Matches either a or b.</td></tr>
+<tr><td>(re)</td><td>Groups regular expressions and remembers matched text.</td></tr>
+<tr><td>(?imx)</td><td>Temporarily toggles on i, m, or x options within a regular expression. If in parentheses, only that area is affected.</td></tr>
+<tr><td>(?-imx)</td><td>Temporarily toggles off i, m, or x options within a regular expression. If in parentheses, only that area is affected.</td></tr>
+<tr><td>(?: re)</td><td>Groups regular expressions without remembering matched text.</td></tr>
+<tr><td>(?imx: re)</td><td>Temporarily toggles on i, m, or x options within parentheses.</td></tr>
+<tr><td>(?-imx: re)</td><td>Temporarily toggles off i, m, or x options within parentheses.</td></tr>
+<tr><td>(?#...)</td><td>Comment.</td></tr>
+<tr><td>(?= re)</td><td>Specifies position using a pattern. Doesn't have a range.</td></tr>
+<tr><td>(?! re)</td><td>Specifies position using pattern negation. Doesn't have a range.</td></tr>
+<tr><td>(?>; re)</td><td>Matches independent pattern without backtracking.</td></tr>
+<tr><td>\w</td><td>Matches word characters.</td></tr>
+<tr><td>\W</td><td>Matches nonword characters.</td></tr>
+<tr><td>\s</td><td>Matches whitespace. Equivalent to [\t\n\r\f].</td></tr>
+<tr><td>\S</td><td>Matches nonwhitespace.</td></tr>
+<tr><td>\d</td><td>Matches digits. Equivalent to [0-9].</td></tr>
+<tr><td>\D</td><td>Matches nondigits.</td></tr>
+<tr><td>\A</td><td>Matches beginning of string.</td></tr>
+<tr><td>\Z</td><td>Matches end of string. If a newline exists, it matches just before newline.</td></tr>
+<tr><td>\z</td><td>Matches end of string.</td></tr>
+<tr><td>\G</td><td>Matches point where last match finished.</td></tr>
+<tr><td>\b</td><td>Matches word boundaries when outside brackets. Matches backspace (0x08) when inside brackets.</td></tr>
+<tr><td>\B</td><td>Matches nonword boundaries.</td></tr>
+<tr><td>\n, \t, etc.</td><td>Matches newlines, carriage returns, tabs, etc.</td></tr>
+<tr><td>\1...\9</td><td>Matches nth grouped subexpression.</td></tr>
+<tr><td>\10</td><td>Matches n<sup>th</sup> grouped subexpression if it matched already. Otherwise refers to the octal representation of a character code.</td></tr>
 </tbody></table>
 
 ### Character classes
 
 <table>
 <tbody><tr><th>Example</th><th>Description</th></tr>
-<tr><td>`[Pp]ython` </td><td>Match "`Python`" or "`python`"</td></tr>
-<tr><td>`rub[ye]`</td><td>Match "`ruby`" or "`rube`"</td></tr>
-<tr><td>`[aeiou]`</td><td>Match any one lowercase vowel</td></tr>
-<tr><td>`[0-9]`</td><td>Match any digit; same as `[0123456789]`</td></tr>
-<tr><td>`[a-z]`</td><td>Match any lowercase ASCII letter</td></tr>
-<tr><td>`[A-Z]`</td><td>Match any uppercase ASCII letter</td></tr>
-<tr><td>`[a-zA-Z0-9]`</td><td>Match any of the above</td></tr>
-<tr><td>`[^aeiou]`</td><td>Match anything other than a lowercase vowel</td></tr>
-<tr><td>`[^0-9]`</td><td>Match anything other than a digit</td></tr>
+<tr><td>[Pp]ython </td><td>Match "Python" or "python"</td></tr>
+<tr><td>rub[ye]</td><td>Match "ruby" or "rube"</td></tr>
+<tr><td>[aeiou]</td><td>Match any one lowercase vowel</td></tr>
+<tr><td>[0-9]</td><td>Match any digit; same as [0123456789]</td></tr>
+<tr><td>[a-z]</td><td>Match any lowercase ASCII letter</td></tr>
+<tr><td>[A-Z]</td><td>Match any uppercase ASCII letter</td></tr>
+<tr><td>[a-zA-Z0-9]</td><td>Match any of the above</td></tr>
+<tr><td>[^aeiou]</td><td>Match anything other than a lowercase vowel</td></tr>
+<tr><td>[^0-9]</td><td>Match anything other than a digit</td></tr>
 </tbody></table>
 
 ### Special Character classes
 
 <table>
 <tbody><tr><th>Example</th><th>Description</th></tr>
-<tr><td>`.`</td><td>Match any character except newline</td></tr>
-<tr><td>`\d`</td><td>Match a digit: `[0-9]`</td></tr>
-<tr><td>`\D` </td><td>Match a nondigit: `[^0-9]`</td></tr>
-<tr><td>`\s`</td><td>Match a whitespace character: `[ \t\r\n\f]`</td></tr>
-<tr><td>`\S`</td><td>Match nonwhitespace: `[^ \t\r\n\f]`</td></tr>
-<tr><td>`\w`</td><td>Match a single word character: `[A-Za-z0-9_]`</td></tr>
-<tr><td>`\W`</td><td>Match a nonword character: `[^A-Za-z0-9_]`</td></tr>
+<tr><td>.</td><td>Match any character except newline</td></tr>
+<tr><td>\d</td><td>Match a digit: [0-9]</td></tr>
+<tr><td>\D </td><td>Match a nondigit: [^0-9]</td></tr>
+<tr><td>\s</td><td>Match a whitespace character: [ \t\r\n\f]</td></tr>
+<tr><td>\S</td><td>Match nonwhitespace: [^ \t\r\n\f]</td></tr>
+<tr><td>\w</td><td>Match a single word character: [A-Za-z0-9_]</td></tr>
+<tr><td>\W</td><td>Match a nonword character: [^A-Za-z0-9_]</td></tr>
 </tbody></table>
 
 ### Repetition cases
 
 <table>
 <tbody><tr><th>Example</th><th>Description</th></tr>
-<tr><td>`python?` </td><td>Match "`pytho`" or "`python`": the `n` is optional</td></tr>
-<tr><td>`ruby*` </td><td>Match "`rub`" plus 0 or more `y`s</td></tr>
-<tr><td>`python+`</td><td>Match "`pytho`" plus 1 or more `n`s</td></tr>
-<tr><td>`\d{5}`</td><td>Match exactly 5 digits</td></tr>
-<tr><td>`\d{3,}`</td><td>Match 3 or more digits</td></tr>
-<tr><td>`\d{6,8}`</td><td>Match 6, 7, or 8 digits</td></tr>
+<tr><td>python? </td><td>Match "pytho" or "python": the n is optional</td></tr>
+<tr><td>ruby* </td><td>Match "rub" plus 0 or more ys</td></tr>
+<tr><td>python+</td><td>Match "pytho" plus 1 or more ns</td></tr>
+<tr><td>\d{5}</td><td>Match exactly 5 digits</td></tr>
+<tr><td>\d{3,}</td><td>Match 3 or more digits</td></tr>
+<tr><td>\d{6,8}</td><td>Match 6, 7, or 8 digits</td></tr>
 </tbody></table>
