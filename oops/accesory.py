@@ -1,3 +1,26 @@
+'''
+Python program to have
+Use the mobile phone class(with below conditions) as parent and build the accessory class for a shop for biling purpose.
+build a class to store the data of the mobile phones with screen size,ram,company and processor along with Constructor and function to estimate cost of phone based on conditions
+  samsung:7000(pr)
+  moto:5999
+  lenovo:4000
+  nokia:6100
+  est cost = pr*(scr size/4.0)+pr*(ram/1.0)+pr*(proc/1.0)+0.05*pr
+
+Input
+enter screen size(inches):5.5
+enter ram (GB):3
+enter company name :moto
+enter processor speed(Ghz)1.8
+do you want a screen guard for your phone? (1 for yes 0 for no):1
+do you want a pounch or case for your phone? :1
+do you want  earphones for your phone? :0
+
+Output
+total cost of your moto phone with accesories is :37843
+
+'''
 #mobile class
 class mobiles:
     """docstring for mobiles."""

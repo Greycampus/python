@@ -1,3 +1,11 @@
+'''
+Python program to print the type of data
+
+Output
+<type 'int'>
+<type 'float'>
+<type 'str'>
+'''
 #initialize the values of a,b,c with different types
 a = 1
 b = 1.0

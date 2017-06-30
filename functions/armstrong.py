@@ -1,3 +1,13 @@
+'''
+Python program to have a function to find whether a given number is armstrong number or not
+
+Input
+enter a number
+1634
+
+Output
+1634 is a armstrong number
+'''
 #armstrong number function
 #An n-digit number that is the sum of the nth powers of its digits is called an n-narcissistic number. It is also sometimes known as an Armstrong number,
 def arms(n):

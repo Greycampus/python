@@ -1,3 +1,21 @@
+'''
+Python program to have a function to generate sequence of primes that are exactly at absoute difference of 1 with powers of two.
+
+Input:
+enter the number
+1000
+
+Output:
+primes that are exactly at absolute difference of 1 with powers of 2 are:
+3
+5
+7
+17
+31
+127
+257
+
+'''
 #checking whether the prime meets required condition
 def soe(n,prime):
     p = 2

@@ -1,3 +1,15 @@
+'''
+Python program to replace all the patterns like '[!*]' using loops
+
+Input
+enter the string:
+[![![!*][!*]*]*]abc
+
+Output
+string before modification:[![![!*][!*]*]*]abc
+abc
+
+'''
 import re
 msg = 'enter the string:'
 print(msg)

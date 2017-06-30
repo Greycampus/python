@@ -1,3 +1,16 @@
+'''
+Write a python program to have a function to find gcd of two numbers
+
+Input
+enter two numbers whose GCD is to be found
+24
+8
+
+Output
+The GCD is :8
+
+
+'''
 def gcdd(a,b):
     #stopping condition for recursion that is bigger number is divisible by smaller number in gcd parameters
     #max(1,2) returns 2 and min(1,2) returns 1

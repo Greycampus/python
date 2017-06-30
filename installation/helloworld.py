@@ -1,2 +1,4 @@
-#program to print Hello World!
+'''
+Python program to print Hello World in console
+'''
 print('Hello World!')

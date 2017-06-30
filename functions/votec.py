@@ -1,3 +1,14 @@
+'''
+Python progrm to have a function to find the voting result based on a string input such that a letter
+
+Input
+enter the vote string:qwqwqwererqwqw
+
+Output
+it's a tie between q,w
+with hightest votes 5
+
+'''
 #votec for finding the votes
 #logic:
 #makes list with every letter in vote string

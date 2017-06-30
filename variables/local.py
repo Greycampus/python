@@ -1,4 +1,12 @@
-#program to find nearest power of three for a number
+'''
+python program to use local variable by taking user input and print nearest power of 3
+
+Input
+4
+
+Output
+3
+'''
 #import math library for log functions
 from math import log,floor,ceil
 msg = 'enter the number:'

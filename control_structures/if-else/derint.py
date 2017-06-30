@@ -1,3 +1,15 @@
+'''
+Python program to find derivative and integral of polynomial,for polynomial x3 + 4x2 + 2x - 1 given in form of 1 4 2 -1
+
+Input
+enter the coefficients:
+5 4 3 2 1
+
+Output
+after differentiation,the equation is:+20.000000x^3 +12.000000x^2 +6.000000x^1 +2.000000
+after integration the equation is:+1.000000x^5 +1.000000x^4 +1.000000x^3 +1.000000x^2 +1.000000x^1 +C
+
+'''
 msg = 'enter the coefficients:'
 print(msg)
 # enter equation that is in form of  x3+4x2+2x-1 as 1 4 2 -1

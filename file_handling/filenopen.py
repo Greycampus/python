@@ -1,3 +1,14 @@
+'''
+Python program to open a text file and print the nth line in text file if nth line does not exist print 'no data'
+
+Input
+enter the line number:
+4
+
+Ouput
+4th line:hello python programmer
+
+'''
 #opeing the text file
 f = open('text1.txt','r')
 #getting nth line number from user

@@ -1,3 +1,19 @@
+'''
+Python program to print the grade of person using the following conditions
+  ->A if percentage >85
+  ->A- if %<=85 and >80
+  ->B if %<=80 and >70
+  ->C if %<=70 and >60
+  ->D if %<=60 and >40
+->E if %<=40 and also should print 'candidate failed' if %<=35
+
+Input
+enter the percentage of student:
+86
+
+Output
+Grade - 'A'
+'''
 #finding grades
 #message variable
 msg = 'enter the percentage of student:'

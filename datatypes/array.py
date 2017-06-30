@@ -1,4 +1,15 @@
-# program to store a sequence in a list or array
+'''
+Python program to take input a sequence of numbers from user and store it in a list or array
+
+Input
+3
+11
+12
+13
+
+Output
+[11, 12, 13]
+'''
 msg = 'enter the number of elements:'
 #printing message for user input
 print(msg)

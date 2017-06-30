@@ -1,3 +1,14 @@
+'''
+Python program to use multithreading to calculate both gcd and factorial of smallest number in gcd parameters
+
+Input
+enter the numbers:27 38
+
+Output
+1
+10888869450418352160768000000
+
+'''
 #import threading
 import threading
 #function for printing the ouputs

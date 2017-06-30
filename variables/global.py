@@ -1,3 +1,12 @@
+'''
+Python program to use pi value as global variable in your program to print the area of circle
+
+Input
+1
+
+Output
+3.14159
+'''
 #defining a global inside the fuction
 def glob():
     #global variable

@@ -1,4 +1,12 @@
-#program to take user name as input and print Hello User
+'''
+Python progrma to print Hello User after reading user name from input
+
+Input
+raghav
+
+Output
+Hello raghav
+'''
 #message variable
 msg = "What's your name?"
 #printing msg for user input

@@ -1,3 +1,14 @@
+'''
+Python program to open a csv file and print only the second column in the file
+
+Output
+the data in second column is :
+2
+two
+dho
+rendu
+
+'''
 #import csv module
 import csv
 import sys

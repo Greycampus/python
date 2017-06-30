@@ -1,3 +1,15 @@
+'''
+Python program to append two files
+
+Ouput
+appended file data:
+Hello programmer! you have successfully open text file
+hello Ruby programmer
+hello C programmer
+hello C++ programmer
+hello python programmer
+hello buddy
+'''
 #using open and opening files using read rights(files to appended)
 f1 = open('text.txt','r').read()
 f2 = open('text1.txt','r').read()

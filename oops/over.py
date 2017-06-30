@@ -1,3 +1,11 @@
+'''
+Python program to Use Function Overridingin a class.
+
+Output
+B's hello
+A's GoodBye
+
+'''
 class A():
     #constructor of A
     def __init__(self):

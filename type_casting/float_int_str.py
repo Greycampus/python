@@ -1,3 +1,15 @@
+'''
+Python program to take a float input from user and convert it into integer and string in respective manner
+
+Input
+3.6
+
+Output
+The int value is:3
+Converting into string:3.6
+The int value is 3
+Converting into string: 3.6
+'''
 #taking input from user
 #message variable
 msg = 'enter a float value:'

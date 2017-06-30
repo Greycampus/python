@@ -1,3 +1,13 @@
+'''
+Python program to Find the sum of the numbers in a string like 1A2wq1acef31sdac4
+
+Input
+enter the alphanumeric string
+1qazxsw23edcvf4@123432$
+
+Output
+the sum is 25
+'''
 import re
 msg = 'enter the alphanumeric string'
 print(msg)

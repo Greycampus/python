@@ -1,3 +1,16 @@
+'''
+python program to find the total occurences of a symbol in string using reqular expressions
+
+Input
+enter the main string:
+1qaz!@#$!@#$zxswedc@#$%
+enter the symbol you wish find occurences:
+@
+
+Output
+@ occured 3 times in 1qaz!@#$!@#$zxswedc@#$%
+
+'''
 import re
 msg= 'enter the main string:'
 print(msg)

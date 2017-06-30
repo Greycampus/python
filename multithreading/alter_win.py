@@ -1,3 +1,21 @@
+'''
+Python program to use multithreading to print alternatly multiples of three and two
+
+Input
+enter the nth term:3
+3
+2
+
+
+6
+4
+
+
+6
+9
+
+'''
+
 #importing threads from threading
 from threading import Thread
 import time

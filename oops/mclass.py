@@ -1,3 +1,20 @@
+'''
+build a class to store the data of the mobile phones with screen size,ram,company and processor along with Constructor and function to estimate cost of phone based on conditions
+  samsung:7000(pr)
+  moto:5999
+  lenovo:4000
+  nokia:6100
+  est cost = pr*(scr size/4.0)+pr*(ram/1.0)+pr*(proc/1.0)+0.05*pr
+
+Input
+enter screen size(inches):5.5
+enter ram (GB):3
+enter company name :moto
+enter processor speed(Ghz)1.8
+
+Output
+the estimated cost of your moto phone is around:37343
+'''
 # mobiles class
 class mobiles:
     """docstring for mobiles."""

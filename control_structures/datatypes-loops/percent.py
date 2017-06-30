@@ -1,3 +1,29 @@
+'''
+Python program that should find the percentage of a student for input given in following manner
+3
+rag 78 56 72
+teja 83 67 78
+bhavana 83 75 67
+bhavana
+output: 75
+
+Input
+Enter the number of students
+5
+Enter the details of students:
+rag 89 90 91
+tej 86 94 90
+bhavana 88 92 90
+srinu 89 91 90
+ravi 89 90 93
+enter name of student
+rag
+
+Output
+percentage is 90.00
+
+
+'''
 #take in user input with multiple types in string format
 msg = 'Enter the number of students'
 print(msg)

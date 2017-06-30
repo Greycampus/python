@@ -1,4 +1,20 @@
+'''
+Python program to use multithreading to print alternatly multiples of three and two
 
+Input
+enter the nth term:3
+3
+2
+
+
+6
+4
+
+
+6
+9
+
+'''
 import sys
 #colors is not python library its defined in colors.py file don't forget to include the file in same directory of execution
 from colors import *

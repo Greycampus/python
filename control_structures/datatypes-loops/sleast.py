@@ -1,3 +1,39 @@
+'''
+Python program that Should print  the name of student having second least percentage from the given list of students  if
+there are multiple students should print multiple students in alphabetical order
+5
+rag
+77
+teja
+89
+bhavana
+84
+praveen
+77
+bhadram
+75
+output:
+praveen
+rag
+
+Input
+Enter number of students:
+4
+enter student details
+rag
+79
+teja
+79
+bhavana
+76
+srinu
+80
+
+Output
+rag
+teja
+
+'''
 #get number of students
 msg = 'Enter number of students:'
 print(msg)

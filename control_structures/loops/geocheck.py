@@ -1,3 +1,19 @@
+'''
+Python program to check whether a given number is in a goemetric progression or not for a given initial value and factor
+
+Input
+enter initial term:
+3
+enter ratio in series(only integers):
+5
+enter number you want to check:
+75
+
+Output
+yes its in series
+
+
+'''
 #getting user input
 #get initial term in series
 msg = 'enter initial term:'

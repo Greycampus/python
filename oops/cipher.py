@@ -1,3 +1,23 @@
+'''
+Python program that implement a ceaser cipher in a class by inhereting texts from a parent class
+
+ A cipher is a methodology for generating a secret message only understandable if we employ a reverse function to cipher function
+ Ceaser cipher alters text by rotating text n times given by user
+ e.g: for text 'hihow' if shift of '5' is applied we get  'mnmtb'
+    h=8=>8+5=13=m for a=1,b=2,c=3,d=4,....z=26
+ We extended our functinality to numbers also i.e 0=1,1=2,2=3,3=4,....9=10
+our job is use user given text, stored in parent class to be used in child class for encryption using ceasar cipher
+and print the cipher text or output generated.
+
+Input
+enter the text to encrypted:ceasarcipherwith1234567
+enter shift for cisear cipher:5
+
+Output
+entered plain text:ceasarcipherwith1234567
+cipher text is:hjfxfwhnumjwbnym6789012
+
+'''
 import re
 #cipher parent
 #stores text

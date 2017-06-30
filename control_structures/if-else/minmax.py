@@ -1,4 +1,15 @@
-#program to find maxima minima for a quadratic equation
+'''
+program to find maxima minima for a quadratic equation for x^2 - 2x + 1 given as   1 -2 1
+
+Input
+enter the coefficients of quadratic equation:
+1 4 4
+
+Output
+After differentiation the equation:2.0x+4.000000
+the minima of given equation is at x=-2.000000
+
+'''
 msg = 'enter the coefficients of quadratic equation:'
 print(msg)
 equa = raw_input()

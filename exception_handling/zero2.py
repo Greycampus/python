@@ -1,3 +1,17 @@
+'''
+Python program to use Exception handling to catch divided by zero and divided by power of 2 exceptions
+
+Input
+enter the divident:
+2
+enter divisor:
+8
+
+Output
+shouldnt be divided by zero or a power of 2
+
+
+'''
 #creating custom exception by inheriting the Exception class
 class zeroor2(Exception):
     pass
@@ -22,4 +36,4 @@ a = int(raw_input().strip())
 msg = 'enter divisor:'
 print(msg)
 b = int(raw_input().strip())
-check(inp1,inp2)
+check(a,b)

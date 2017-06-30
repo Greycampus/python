@@ -1,3 +1,15 @@
+'''
+Python program to 2.use exception handling to prevent the calculation of roots of quadratic equation if root as complex
+
+Input
+enter the equation in the form of 1 2 1 if equation is x^2 + 2x + 1:
+1 1 1
+
+Output
+roots are imaginery so calculation stopped
+
+
+'''
 #defining the class for our exception
 #our custom exception inherits the Exception class for raising the exception of complex roots
 class complexerror(Exception):

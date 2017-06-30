@@ -1,3 +1,19 @@
+'''
+Python program to Extract the mail addresses in the given string using regular expression
+
+Input
+enter the raw data containing mail addresses:
+qwer@qw.comasd@as.comzxcd@sdf.com zxswe@rt1.comjuk9.ju@rt.com
+
+Output
+extracted mail addresses are:
+qwer@qw.com
+asd@as.com
+zxcd@sdf.com
+zxswe@rt1.com
+juk9.ju@rt.com
+
+'''
 # importing python regex library
 import re
 msg = 'enter the raw data containing mail addresses:'

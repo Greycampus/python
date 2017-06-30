@@ -1,3 +1,14 @@
+'''
+Python program to use iterators to generate the multiples of two and three
+
+Input
+10
+
+Output
+multiples of both 2 and 3 are:
+[6, 12, 18, 24, 30, 36, 42, 48, 54, 60]
+
+'''
 #importing iteration tools
 import itertools
 msg = 'enter the number of terms:'
