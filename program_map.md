@@ -22,7 +22,7 @@
 ##### if else and elif
 - check whether a number is odd and also multiple of nine -[oddnine.py](control_structures/if-else/oddnine.py)
 - print grade using the given conditions -[grade.py](control_structures/if-else/grade.py)
-- find maxima or minima of x<sup>2</sup>-2x+1 given in the form of 1 -2  1 - [minmax.py](control_structures/if-else/minxmax.py)
+- find maxima or minima of x<sup>2</sup>-2x+1 given in the form of 1 -2  1 - [minmax.py](control_structures/if-else/minmax.py)
 - find whether a given is leap year or not using given conditions -[leapyear.py](control_structures/if-else/leapyear.py)
 - find the derivative and integral of polinomial x<sup>3</sup>+4x<sup>2</sup>+2x-1 given in the form of 1 4 2 -1 - [derint.py](control_structures/if-else/derint.py)
 
@@ -36,7 +36,7 @@
 ##### Datatypes recap with control structures
 - print percentage of a student for name given in input -[percent.py](control_structures/datatypes-loops/percent.py)
 - Should print the name or names(if multiple exists) of second least marks in the list of students in alphabetical order -[sleast.py](control_structures/datatypes-loops/sleast.py)
-- use array as set to store only unique items in a array or list - [aset.py](control_struct/datatypes-loops/aset.py)
+- use array as set to store only unique items in a array or list - [aset.py](control_structures/datatypes-loops/aset.py)
 
 #### File Handling
 - Open a text file and print all the data in it -[fileopen.py](file_handling/fileopen.py)
