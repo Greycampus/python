@@ -46,7 +46,8 @@ def mp(n):
 msg = 'enter the number'
 print(msg)
 #reading the input from the console
-n = int(input())
+#stripping extra spaces using strip and converting to integer
+n = int(raw_input().strip())
 print('primes that are exactly at absolute difference of 1 with powers of 2 are:')
 #calling the function
 mp(n)
