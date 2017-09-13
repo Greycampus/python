@@ -1,4 +1,4 @@
-###### python exclusives are followed by <img src="/assets/green.png" width="10px"/>
+###### python exclusives are followed by ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
 ###### mapping for programs are in [program_map](program_map.md)
 # TABLE OF CONTENTS
 #### Introdution
@@ -24,16 +24,16 @@
   - complex
 - Sequence types
   - Strings
-  - list <img src="/assets/green.png" width="10px"/>
-  - tuple <img src="/assets/green.png" width="10px"/>
-  - byteArray <img src="/assets/green.png" width="10px"/>
-  - buffer <img src="/assets/green.png" width="10px"/>
-  - xrange <img src="/assets/green.png" width="10px"/>
+  - list ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
+  - tuple ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
+  - byteArray ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
+  - buffer ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
+  - xrange ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
 - Set types
-  - set <img src="/assets/green.png" width="10px"/>
-  - frozenset <img src="/assets/green.png" width="10px"/>
+  - set ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
+  - frozenset ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
 - Mapping types
-  - Dictionaries <img src="/assets/green.png" width="10px"/>
+  - Dictionaries ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
 
 #### Type casting
 - Imlplicit casting
@@ -50,11 +50,11 @@
   - loop control statements
     - break statement
     - continue statement
-    - pass statement <img src="/assets/green.png" width="10px"/>
+    - pass statement ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
 
 #### Package management using pip
-- pip installation <img src="/assets/green.png" width="10px"/>
-- package installation and management using pip <img src="/assets/green.png" width="10px"/>
+- pip installation ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
+- package installation and management using pip ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
 
 #### File Handling
 - File Objects
@@ -72,14 +72,14 @@
 - Pass by reference vs Pass by value
 - Function arguments
   - required arguments
-  - keyword arguments <img src="/assets/green.png" width="10px"/>
+  - keyword arguments ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
   - default arguments
   - variable length arguments
 - Anonymous Functions
 
 #### Regular Expressions
-- the re module <img src="/assets/green.png" width="10px"/>
-  - re module functions <img src="/assets/green.png" width="10px"/>
+- the re module ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
+  - re module functions ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
 
 #### Object oriented paradigms
 - Class and its objects
@@ -91,16 +91,16 @@
 - Encapsulation
 
 #### Serialization
-- pickle and cPickle modules <img src="/assets/green.png" width="10px"/>
-- marshal module <img src="/assets/green.png" width="10px"/>
+- pickle and cPickle modules ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
+- marshal module ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
 
 #### Exception handling
 - Exception handling
 - Assertions
 
 #### iterators
-- itertools module <img src="/assets/green.png" width="10px"/>
+- itertools module ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
 
 #### multithreading
-- thread module <img src="/assets/green.png" width="10px"/>
-- threading module <img src="/assets/green.png" width="10px"/>
+- thread module ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
+- threading module ![greencircle](https://lh3.googleusercontent.com/-67wvkzLZ_aY/WbjktYN3-QI/AAAAAAAAAEE/Uf9CTEcBfuEZ_KLlezx54Je6om0kQN1kgCL0BGAYYCw/h10/image.png)
